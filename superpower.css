@@ -1,0 +1,17 @@
+body
+{
+	background: pink;
+	color: black;
+	font-family: sans-serif;
+	margin: 20%;
+	border: dotted yellow 4px;
+} /* body */
+
+h1
+{
+	color: red;
+	font-family: serif;
+	margin: 10%;
+	
+} /* h1 */
+
