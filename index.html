@@ -5,43 +5,39 @@
     <link rel="stylesheet" href="definition.css" type="text/css">
     <title>index</title>
     <script>
-		
-		function changeColor1()
-		{
-			document.body.bgColor = "yellow";	
-		}
-		function changeColor2()
-		{
-			document.body.bgColor = "blue";
-		}
-		function changeColor3()
-		{
-			document.body.bgColor = "green";
-		}	
-		function changeColor4()
-		{
-			document.body.bgColor = "pink";
-		}	
-		function display()
-		{	
-			alert ("Hello World")
-		}
-		function prompter()
-		{
-			var reply = prompt("Hey there, good looking stranger!  What's your name?", "")
-			alert ( "Nice to see you around these parts " + reply + "!")
-		}
+    function changeColor1()
+    {
+ 	document.body.bgColor = "yellow";	
+    }
+   function changeColor2()
+    {
+        document.body.bgColor = "blue";
+    }
+    function changeColor3()
+    {
+        document.body.bgColor = "green";
+    }	
+    function changeColor4()
+    {
+        document.body.bgColor = "pink";
+    }	
+    function display()
+    {	
+	alert ("Hello World")
+    }
+    function prompter()
+    {
+        var reply = prompt("Hey there, good looking stranger!  What's your name?", "")
+	alert ( "Nice to see you around these parts " + reply + "!")
+    }   
    </script>
   
   </head>
   <body>
     <img src="cartoon.jpg" width="140" height="140" alt="cartoonsuperman">
-    <button type="button"
-		onclick="document.getElementById('Time').innerHTML = Date()">
-		Click me to display Date and Time.</button>
-		<p id="Time"></p>
+    <button type="button"onclick="document.getElementById('Time').innerHTML = Date()">Click me to display Date and Time.</button>
+    <p id="Time"></p>
     <input type="button" onclick="display()" value="display">
-    <p>click anywhere you want</p>
     <input type="button" onclick="changeColor1()" value="yellow">
     <input type="button" onclick="changeColor2()" value="blue">
     <input type="button" onclick="changeColor3()" value="green">
