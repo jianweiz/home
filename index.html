@@ -5,6 +5,14 @@
     <link rel="stylesheet" href="definition.css" type="text/css">
     <title>index</title>
     <script>
+    <script type="text/javascript">
+    <!--
+    function prompter() 
+    {
+        var reply = prompt("Hey there, good looking stranger!  What's your name?", "")
+        alert ( "Nice to see you around these parts " + reply + "!")
+    }
+    //-->
     function changeColor1()
     {
  	document.body.bgColor = "yellow";	
@@ -45,6 +53,7 @@
     <img src="cartoon.jpg" width="140" height="140" alt="cartoonsuperman">
     <button type="button"onclick="document.getElementById('Time').innerHTML = Date()">Click me to display Date and Time.</button>
     <p id="Time"></p>
+    <input type="button" onclick="prompter()" value="Say my name!">
     <input type="button" onclick="display()" value="display">
     <input type="button" onclick="changeColor1()" value="yellow">
     <input type="button" onclick="changeColor2()" value="blue">
