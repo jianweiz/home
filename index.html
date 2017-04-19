@@ -4,6 +4,35 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="definition.css" type="text/css">
     <title>index</title>
+    <script>
+		
+		function changeColor1()
+		{
+			document.body.bgColor = "yellow";	
+		}
+		function changeColor2()
+		{
+			document.body.bgColor = "blue";
+		}
+		function changeColor3()
+		{
+			document.body.bgColor = "green";
+		}	
+		function changeColor4()
+		{
+			document.body.bgColor = "pink";
+		}	
+		function display()
+		{	
+			alert ("Hello World")
+		}
+		function prompter()
+		{
+			var reply = prompt("Hey there, good looking stranger!  What's your name?", "")
+			alert ( "Nice to see you around these parts " + reply + "!")
+		}
+   </script>
+  
   </head>
   <body>
     <img src="cartoon.jpg" width="140" height="140" alt="cartoonsuperman">
@@ -11,6 +40,12 @@
 		onclick="document.getElementById('Time').innerHTML = Date()">
 		Click me to display Date and Time.</button>
 		<p id="Time"></p>
+    <input type="button" onclick="display()" value="display">
+    <p>click anywhere you want</p>
+    <input type="button" onclick="changeColor1()" value="yellow">
+    <input type="button" onclick="changeColor2()" value="blue">
+    <input type="button" onclick="changeColor3()" value="green">
+    <input type="button" onclick="changeColor4()" value="pink">
     <h1>Computer terminology</h1>
     <p><a href="definition.html">Go to this page.</a></p>
     <h1>My superpower</h1>
